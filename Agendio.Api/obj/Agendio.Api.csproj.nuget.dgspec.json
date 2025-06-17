@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luana Rodrigues\\Documents\\agende.io\\Projeto\\Agendio.Api\\Agendio.Api.csproj": {}
+    "C:\\Users\\Luana Rodrigues\\Documents\\agende.io\\Projeto\\AGEND.io\\Agendio.Api\\Agendio.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luana Rodrigues\\Documents\\agende.io\\Projeto\\Agendio.Api\\Agendio.Api.csproj": {
+    "C:\\Users\\Luana Rodrigues\\Documents\\agende.io\\Projeto\\AGEND.io\\Agendio.Api\\Agendio.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luana Rodrigues\\Documents\\agende.io\\Projeto\\Agendio.Api\\Agendio.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Luana Rodrigues\\Documents\\agende.io\\Projeto\\AGEND.io\\Agendio.Api\\Agendio.Api.csproj",
         "projectName": "Agendio.Api",
-        "projectPath": "C:\\Users\\Luana Rodrigues\\Documents\\agende.io\\Projeto\\Agendio.Api\\Agendio.Api.csproj",
+        "projectPath": "C:\\Users\\Luana Rodrigues\\Documents\\agende.io\\Projeto\\AGEND.io\\Agendio.Api\\Agendio.Api.csproj",
         "packagesPath": "C:\\Users\\Luana Rodrigues\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luana Rodrigues\\Documents\\agende.io\\Projeto\\Agendio.Api\\obj\\",
+        "outputPath": "C:\\Users\\Luana Rodrigues\\Documents\\agende.io\\Projeto\\AGEND.io\\Agendio.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luana Rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -56,15 +56,27 @@
               "target": "Package",
               "version": "[9.0.6, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.6, )"
             },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
             }
           },
           "imports": [
